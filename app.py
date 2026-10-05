@@ -5,10 +5,10 @@ app.config["SECRET_KEY"] = "oversight-software-experts-2026"
 
 COMPANY_INFO = {
     "legal_name": "OVERSIGHT SOFTWARE EXPERTS LLC",
-    "entity_number": "0451505802",
-    "registered": "New Jersey, USA (08/03/2026)",
+    "entity_number": "0451505802",  # ⚠️ replace with your Illinois entity number
+    "registered": "Illinois, USA",
     "registered_agent": "Michael Lanza",
-    "registered_office": "40 Wantage Ave, Branchville, New Jersey 07890",
+    "registered_office": "40 Wantage Ave, Branchville, IL",  # ⚠️ replace with your real IL address
     "email": "oversightsoftwareexperts@gmail.com",
     "phone": "+1 (850) 228-5378",
     "business_purpose": (
@@ -26,10 +26,7 @@ SERVICES = [
             "Tailored applications architected around your exact workflows, "
             "from prototype to production."
         ),
-        "image": (
-            "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
-            "?auto=format&fit=crop&w=1200&q=85"
-        ),
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=85",
         "features": [
             "Web & mobile apps",
             "API & backend systems",
@@ -45,10 +42,7 @@ SERVICES = [
             "Engineering the pipelines, data flows, and evaluation loops "
             "behind production AI systems."
         ),
-        "image": (
-            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485"
-            "?auto=format&fit=crop&w=1200&q=85"
-        ),
+        "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=85",
         "features": [
             "Training pipelines",
             "Data labeling ops",
@@ -64,10 +58,7 @@ SERVICES = [
             "Battle-tested products available for licensing, white-labeling, "
             "and enterprise integration."
         ),
-        "image": (
-            "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
-            "?auto=format&fit=crop&w=1200&q=85"
-        ),
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85",
         "features": [
             "White-label rights",
             "On-prem deployment",
@@ -83,10 +74,7 @@ SERVICES = [
             "Reliable data infrastructure that feeds your products, "
             "analytics, and AI systems."
         ),
-        "image": (
-            "https://images.unsplash.com/photo-1544197150-b99a580bb7a8"
-            "?auto=format&fit=crop&w=1200&q=85"
-        ),
+        "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=85",
         "features": [
             "ETL pipelines",
             "Data warehousing",
@@ -141,13 +129,13 @@ WHY_CHOOSE_US = [
     },
     {
         "title": "US-Registered Entity",
-        "description": "A New Jersey LLC with clear contracts and accountable business practices.",
+        "description": "An Illinois LLC with clear contracts and accountable business practices.",
         "icon": "fa-certificate",
     },
 ]
 
 ABOUT = (
-    "OVERSIGHT SOFTWARE EXPERTS LLC is a New Jersey-based engineering studio "
+    "OVERSIGHT SOFTWARE EXPERTS LLC is an Illinois-based engineering studio "
     "building software for companies that can't afford to ship broken products. "
     "We design, license, and support custom applications, digital platforms, "
     "and technology solutions for businesses and consumers.\n\n"
