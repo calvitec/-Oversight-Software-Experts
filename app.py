@@ -5,12 +5,12 @@ app.config["SECRET_KEY"] = "oversight-software-experts-2026"
 
 COMPANY_INFO = {
     "legal_name": "OVERSIGHT SOFTWARE EXPERTS LLC",
-    "entity_number": "0451505802",  # ⚠️ replace with your Illinois entity number
-    "registered": "Illinois, USA",
+    "entity_number": "0451505802",  # ⚠️ replace with your real state entity number
+    "registered": "Washington, USA",
     "registered_agent": "Michael Lanza",
-    "registered_office": "40 Wantage Ave, Branchville, IL",  # ⚠️ replace with your real IL address
+    "registered_office": "12214 SE 95th Way, Newcastle, WA 98056",
     "email": "oversightsoftwareexperts@gmail.com",
-    "phone": "+1 (850) 228-5378",
+    "phone": "+1 (253) 420-8212",
     "business_purpose": (
         "To develop, license, market, and support software applications, "
         "digital platforms, and technology solutions for businesses and consumers."
